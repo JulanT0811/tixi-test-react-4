@@ -10,11 +10,13 @@ export default function MultiplyPage() {
   return (
     <Paper sx={{ p: 3, borderRadius: 3 }}>
       <Typography variant="h5" fontWeight={900} gutterBottom>
-        calculo (a * b)
+        Cálculos de Inventario
+        <h3>1. Valor Total de un Producto</h3>
+        <h4>Precio Unitario:</h4>
       </Typography>
 
       <TextField
-        label="A"
+        label="Precio Unitario:"
         type="number"
         value={a}
         onChange={(e) => setA(Number(e.target.value))}
@@ -22,7 +24,7 @@ export default function MultiplyPage() {
       />
 
       <TextField
-        label="B"
+        label="Cantidad en Stock:"
         type="number"
         value={b}
         onChange={(e) => setB(Number(e.target.value))}
