@@ -48,7 +48,7 @@ export default function App() {
       <Container sx={{ py: 3 }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/productos" element={<ProductsPage />} />
+          <Route path="/producto" element={<ProductsPage />} />
           <Route path="/nuevo producto" element={<SumPage />} />
           <Route path="/calculo" element={<MultiplyPage />} />
           <Route path="/Informacion" element={<AboutPage />} />
